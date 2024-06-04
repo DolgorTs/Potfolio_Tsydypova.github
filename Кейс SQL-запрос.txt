@@ -1,0 +1,26 @@
+Задание.
+
+Вы — аналитик данных. Руководитель дал вам задание поработать с таблицей logs действий пользователей (user_id, event, event_time, value). Действия пользователей поделены на сессии - последовательности событий, в которых между соседними по времени событиями промежуток не более 5 минут. Т.е. длина всей сессии может быть гораздо больше 5 минут, но между каждыми последовательными событиями не должно быть более 5 минут.
+Поле event может принимать разные значения, в том числе ’template_selected’ (пользователь выбрал некий шаблон). В случае, если event=’template_selected’, то в value записано название этого шаблона (например, ’pop_art_style’).
+
+Задача.
+Напишите SQL-запрос, выводящий 5 шаблонов, которые чаще всего применяются юзерами 2 и более раза подряд в течение одной сессии.
+
+Решение. 
+
+select value
+from (	
+	select *, count(value) filter (where event=’template_selected’) over (partition by value, s_number, user_id) c_value
+	from (
+		select *, sum(s_start) over (partition by user_id order by event_time) s_number
+ 		from (
+			select *, case when (extract('epoch' from event_time) - extract('epoch' from lag(event_time, 1, 0) over(partition by user_id order by event_time))) < 300 then 0 else 			1 end s_start
+			from logs
+                      ) x  - первый подзапрос создает признаки начала новых сессий
+		) y - второй подзапрос нумерует сессии в рамках групп по юзерам
+	) z - третий подзапрос считает сколько определеных шаблонов было в каждой сессии
+where c_value > = 2
+order by c_value desc
+limit 5
+
+И последний запрос вывод решение. 
