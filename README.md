@@ -10,7 +10,7 @@ Now I'm at the stage of completing my training in Netology.
 In my repository you will find some educational projects.
 
 My Technical stack:
-- PostreSQL 
+- PostgreSQL 
 - Python (Pandas, Numpy, Sklearn)
 - MS Excel
 - Google sheets
