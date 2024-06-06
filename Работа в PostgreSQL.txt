@@ -1,0 +1,29 @@
+Задача 1
+Необходимо получить список сотрудников в формате: «Иванова — Наталья – Юрьевна». ФИО должно быть прописано в одном столбике, разделение —.
+Вывести: новое поле, назовем его fio, birth_dt.
+Решение:
+SELECT CONCAT(last_nm, ‘ - ‘, first_nm, ‘ - ‘, middle_nm) AS fio, birth_dt
+FROM Employees
+
+Задача 2
+Вывести %% дозвона для каждого дня. Период с 01.10.2020 по текущий день (%% дозвона – это доля принятых звонков (dozv_flg=1) от всех поступивших звонков (dozv_flg = 1 or dozv_flg = 0)).
+Вывести: date, sla (%% дозвона)
+Решение:
+SELECT start_dttm::date AS "date", 
+COUNT(CASE WHEN dozv_flg=1 THEN 1 END) /COUNT(CASE WHEN dozv_flg IN (1, 0) THEN 1 END) AS sla
+FROM Calls
+WHERE start_dttm::DATE between '2020-10-01' AND now()::date
+GROUP BY start_dttm::DATE
+
+Задача 3
+Дана таблица clinets:
+id клиента
+calendar_at - дата входа в мобильное приложение
+Нужно написать запрос для расчета MAU.
+Решение:
+SELECT AVG(uniq) AS MAU
+FROM (SELECT EXTRACT(MONTH FROM calendar_at) AS month, COUNT(DISTINCT ID) AS uniq
+           	FROM clinets
+GROUP BY month)
+
+   
