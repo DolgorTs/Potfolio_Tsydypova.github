@@ -15,3 +15,6 @@ My Technical stack:
 - MS Excel
 - Google sheets
   
+My contacts: 
+- smileme92@mail.ru
+- t.me/DTsydya
