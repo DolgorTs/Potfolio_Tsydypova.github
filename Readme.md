@@ -82,7 +82,8 @@
 ---
 
 ## 📬 Контакты  
-- **Email**: [dolgortsyd@gmail.com](mailto:smileme92@mail.ru)  
+- **Email**: [smileme92@mail.ru](mailto:smileme92@mail.ru)
+- **Telegram**: [@DTsydya](https://t.me/DTsydya)
 - **Резюме**: [Просмотреть PDF](https://github.com/Dolgortsyd/resume/raw/main/CV.pdf)  
  
     
