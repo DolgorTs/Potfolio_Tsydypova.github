@@ -1,5 +1,5 @@
 # Dolgor Tsydypova | Portfolio  
-**GitHub:** [Dolgortsyd](https://github.com/Dolgortsyd)  
+**GitHub:** [Dolgortsyd](https://github.com/DolgorTs)  
 
 ---
 
@@ -83,7 +83,7 @@ Currently, I am actively developing my skills in Data Analytics: proficient in S
 
 
 # Долгор Цыдыпова | Портфолио 
-**GitHub:** [Dolgortsyd](https://github.com/Dolgortsyd)  
+**GitHub:** [Dolgortsyd](https://github.com/DolgorTs)  
 
 ---
 
