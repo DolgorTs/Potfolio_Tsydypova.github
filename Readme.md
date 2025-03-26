@@ -1,219 +1,186 @@
-# Dolgortsyd.github
-Добрый день!
-
-Меня зовут Долгор Цыдыпова. 
-
-Я очень хочу сменить сферу деятельности на аналитика данных.
-
-Мой профессиональный опыт:
-
- С июня 2019 по март 2025 я работала в страховой компании ООО "СК "Герса" на позиции специалиста по урегулированию убытков.
-
- Обязанности:
-- анализ убытков;
-- составление регулярной отчетности и ad-hoc отчетов в Excel с использованием сводных таблиц, срезов, функций ВПР, индекс, поискпоз, суммесли, счетесли и т.д.;
-- визуализация отчетов;
-- коммуникации с клиентами;
-- работа с первичными бухглатерским документами (УПД, Счет-фактура, ТН), а также работа с договорами страхования, и договорами поставок. 
-
-Я успешно прошла обучение на аналитика-данных в онлайн-школе Нетология, и продолжаю изучать самостоятельно основные инструменты в работе аналитика данных: SQL (PostgreSQL), Pythob (Pandas, Numpy, Seaborn, Matplotlib, Plotly, Scipy, Sklearn), Power BI.
-
-Мои учебные проекты:
-
-1. “Анализ рынка жилой недвижимости Москвы (поиск инсайтов, составление рекомендаций стейкхолдерам, построение предиктивной модели стоимости)”
-   
-   Задача: в рамках, имеющихся данных о продажах квартир в г. Москве с сайта Циан, научиться определять рыночную стоимость квартир, выявить основные факторы, которые на них влияют, для составления рекомендаций стейкхолдерам по направлению развития бизнеса.
-   
-   В работе выполнено:
-   
-   1. Сбор и очистка данных;
-   2. Анализ для стейкхолдеров;
-   3. Проверка гипотез;
-   4. Матрица корреляций и попарные зависимости переменных;
-   5. Построение модели линейной регресии для прогнозирования стоимости квартиры в Москве.
-   6. Даны рекомендации стейкхолдерам
-
-   Использованы библиотеки Python: numpy, pandas, matplotlob, seaborn, plotly, stats, sklearn
-
-2. "Анализ базы данных Авиаперевозок"
-
-   Задача формирование запросов к БД с использованием PostgreSQL.
-
-   В работе применены следующие навыки работы c PostgreSQL:
-   - объединение таблиц
-   - агрегатные функции
-   - группировка
-   - подзапросы
-   - условный оператор case
-   - CTE - общие табличные выражения
-   - оконные функции
-
-3. Поиск_аномалий_и_пропущенных_значений_(датасет_о_работниках).
-
-   Задача: очистка датасета на предмет аномалий, пропущенных значений, выбросов и тд.
-
-   В работе выполнено:
-   
-   1. Загрузка файла
-   2. Преобразованы типы данных
-   3. Найдены и проработаны аномальные, пропущенные значения и дубликаты
-
-   Использованы:
-   - библиотеки Python: pandas, datetime, seaborn, matplotlib.
-   - инструменты: регулярные выражения, функции, визуализации (boxplot, histogram)
-
- 4. "Анализ опроса сотрудников об уровне удовлетворенности работой".
-    
-    Задача анализ датасета с использованием Python-библиотек. 
-    
-    В работе выполнено:
-    - расчет статистик (среднее,медиана,мода,мин/макс,сред.отклонение)
-    - расчитана и визуализирована матрица корреляций
-    - показаны распределения сотрудников по зарплатам
-    - проверена гипотеза, что сотрудники с высоким окладом проводят на работе больше времени, чем сотрудники с низким окладом
-    - построена модель LDA, предсказывающую уволился ли сотрудник на основе имеющихся факторов (кроме department и salary).
-    - оценено качество модели на тестовой выборке.
-   
-   Использованы инструменты: Python-библиотеки: pandas, numpy, matplotlib, seaborn, plotly, scipy, sklearn.
-
-5. "Анализ базы транзакций интернет-магазина из Великобритании".
-   
-   Задача изучить данные и составить аналитический отчёт.
-   
-   В работе выполнено: - оценка качества и полноты исходных данных
-                       - выявлены некорректности и аномалии
-                       - зафиксированы результаты знакомства и выявлены ограничения
-                       - определены потенциальные задачи, которые можно решить с использованием датасета
-                       - выполнен поиск решений таковых задач в данных
-                       - определены бизнес-интересы, круг стейкхолдеров и метрики
-                       - сделаны выводы и составлены рекомендации о факторах развития.
-   
-   Использованы инструменты: MS Office, MS Word 
-
-6. Тестовое задание "Кейс SQL-запрос".
-     
-     Дана таблица logs с действиями пользователей (user_id, event, event_time, value).
-     Выполнен SQL - запрос, выводящий 5 шаблонов которые чаще всего применяются юзерами 2 и более раза подряд в течение одной сессии.
-
-7. Тестовое задание "Работа в PostgreSQL".
-     
-     Выполнены SQL - запросы с использование конкатенации, условного оператора case, агреганых функций, и подзапросов. 
-
-
- 
-Hi! 
-My name is Dolgor Tsydypova.
-
-I'm a begginer data-analyst.
-
-My professional experience.
-
-1. I have been working in insurance company (trade credit) from 2019 to now.
-   My positions:
-   - until march 2024: Database manager (regular reporting in Excel, visualization, correspondence with clients)
-   - from april 2024 to now: Claim assesor (settlement of losses)
-     
-2. I`m also at the stage of completing my training in online-school Netology on the Data Analyst course.
-   
-In my repository you can find some educational projects.
-
-My Technical stack:
-- PostgreSQL 
-- Python (Pandas, Numpy, Sklearn)
-- MS Excel
-- Google sheets
- 
-My contacts: 
-- smileme92@mail.ru
-- t.me/DTsydya
-
-
    # Dolgortsyd.github  
+# Dolgor Tsydypova | Data Analyst Portfolio
+**GitHub:** [Dolgortsyd](https://github.com/Dolgortsyd)  
 
-Hello!  
+---
 
-My name is Dolgor Tsydypova.  
+## 👋 Introduction  
+Hello! I'm **Dolgor Tsydypova**, a professional transitioning into data analytics with a strong background in insurance and hands-on experience in data analysis tools and techniques.  
 
-I am eager to transition into the field of data analytics.  
+---
 
-### Professional Experience:  
-**June 2019 – March 2025**: Loss Settlement Specialist at **Gersa Insurance Company LLC**  
-**Responsibilities**:  
-- Loss analysis.  
-- Preparing regular and ad-hoc reports in Excel using pivot tables, slicers, VLOOKUP, INDEX, HLOOKUP, SUMIF, COUNTIF, and other functions.  
-- Report visualization.  
-- Client communication.  
-- Handling primary accounting documents (Universal Transfer Documents, Invoices, Waybills) and insurance/supply contracts.  
+## 🚀 Professional Experience  
+### **Claim assesor Specialist**  
+**Gersa Insurance Company LLC** (June 2019 – March 2025)  
+- **Key Responsibilities**:  
+  - Conducted loss analysis and prepared regular/ad-hoc reports using **Excel** (pivot tables, slicers, VLOOKUP, INDEX, HLOOKUP, SUMIF, COUNTIF).  
+  - Visualized reports for stakeholders and communicated findings to clients.  
+  - Managed primary accounting documents (invoices, waybills) and insurance/supply contracts.  
 
-### Education & Skills:  
-- Completed the **Data Analyst Program** at **Netology Online School**.  
-- Continuously improving skills in key data analytics tools:  
-  - **SQL** (PostgreSQL)  
-  - **Python** (Pandas, NumPy, Seaborn, Matplotlib, Plotly, SciPy, Scikit-learn)  
-  - **Power BI**  
+---
 
-### Academic Projects:  
+## 🛠️ Technical Skills  
+- **Languages**: SQL (PostgreSQL), Python  
+- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Plotly, SciPy, Scikit-learn  
+- **Tools**: Power BI, Excel, MS Office  
+- **Data Analysis**: Hypothesis testing, regression modeling, anomaly detection, ETL processes  
 
-#### 1. **Moscow Residential Real Estate Market Analysis**  
-**Objective**: Use data from Cian.ru to determine market prices for apartments in Moscow, identify key price drivers, and provide business recommendations to stakeholders.  
+---
+
+## 📚 Education & Certifications  
+- **Data Analyst Certification** | Netology Online School  
+- **Self-Study**: Advanced SQL, Python for Data Analysis, Power BI  
+
+---
+
+## 💼 Projects  
+
+### 1. **Moscow Residential Real Estate Market Analysis**  
+**Goal**: Predict apartment prices and identify key drivers using data from Cian.ru.  
 **Workflow**:  
-  1. Data collection and cleaning.  
-  2. Stakeholder-focused analysis.  
-  3. Hypothesis testing.  
-  4. Correlation matrix and pairwise variable dependencies.  
-  5. Linear regression model for price prediction.  
-  6. Stakeholder recommendations.  
-**Tools**: Python (NumPy, Pandas, Matplotlib, Seaborn, Plotly, Statsmodels, Scikit-learn).  
+  - Data collection, cleaning, and stakeholder-focused analysis.  
+  - Hypothesis testing, correlation matrix, and linear regression modeling.  
+  - **Tools**: Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn).  
+  - [Анализ_рынка_недвижимости_Москвы]([link_to_repo](https://github.com/DolgorTs/resumeandprojects.github/blob/108954cd73f1be58ccb2e89d25c43c135383d233/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D1%80%D1%8B%D0%BD%D0%BA%D0%B0_%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D1%8B.ipynb))
+    
+### 2. **Air Travel Database Analysis (PostgreSQL)**  
+**Goal**: Analyze flight data with complex SQL queries.  
+**Skills Applied**:  
+  - CTEs, window functions, CASE statements, joins, and subqueries.  
+  - [View Project](link_to_repo)  
 
-#### 2. **Air Travel Database Analysis**  
-**Objective**: Write PostgreSQL queries to analyze flight data.  
-**Applied Skills**:  
-  - Table joins  
-  - Aggregate functions  
-  - Grouping  
-  - Subqueries  
-  - CASE statements  
-  - CTEs (Common Table Expressions)  
-  - Window functions  
-
-#### 3. **Anomaly and Missing Value Detection (Employee Dataset)**  
-**Objective**: Clean a dataset by addressing anomalies, missing values, and duplicates.  
+### 3. **Employee Dataset Anomaly Detection**  
+**Goal**: Clean and preprocess a dataset of employee records.  
 **Workflow**:  
-  1. File loading.  
-  2. Data type conversion.  
-  3. Handling anomalies, missing values, and duplicates.  
-**Tools**: Python (Pandas, datetime, Seaborn, Matplotlib), regex, visualizations (boxplots, histograms).  
+  - Handled missing values, duplicates, and outliers.  
+  - **Tools**: Python (Pandas, Regex), visualizations (boxplots, histograms).  
+  - [View Project](link_to_repo)  
 
-#### 4. **Employee Job Satisfaction Survey Analysis**  
-**Objective**: Analyze a survey dataset using Python.  
+### 4. **Employee Satisfaction Survey Analysis**  
+**Goal**: Explore factors influencing job satisfaction and attrition.  
 **Tasks**:  
-  - Descriptive statistics (mean, median, mode, min/max, standard deviation).  
-  - Correlation matrix visualization.  
-  - Salary distribution analysis.  
-  - Hypothesis test: "High-salary employees work longer hours than low-salary employees."  
-  - LDA model to predict employee attrition (excluding department and salary).  
-  - Model evaluation on test data.  
-**Tools**: Python (Pandas, NumPy, Matplotlib, Seaborn, Plotly, SciPy, Scikit-learn).  
+  - Descriptive statistics, correlation analysis, and LDA modeling.  
+  - Hypothesis: "High-salary employees work longer hours."  
+  - **Tools**: Python (Scikit-learn, SciPy, Plotly).  
+  - [View Project](link_to_repo)  
 
-#### 5. **UK Online Store Transaction Analysis**  
-**Objective**: Explore data and compile an analytical report.  
-**Workflow**:  
-  - Data quality and completeness assessment.  
-  - Anomaly detection.  
-  - Stakeholder identification and metric definition.  
-  - Recommendations for business growth factors.  
-**Tools**: MS Office (Excel, Word).  
+### 5. **UK Online Store Transaction Analysis**  
+**Goal**: Identify growth opportunities through data exploration.  
+**Deliverables**:  
+  - Data quality assessment, anomaly detection, stakeholder recommendations.  
+  - **Tools**: MS Excel, Word.  
+  - [View Project](link_to_repo)  
 
-#### 6. **SQL Query Case Study**  
-**Task**: Write a PostgreSQL query to identify the top 5 user action patterns repeated consecutively ≥2 times per session.  
-**Dataset**: `logs` table with user actions (`user_id`, `event`, `event_time`, `value`).  
+### 6. **SQL Pattern Recognition Case Study**  
+**Task**: Identify top 5 recurring user action patterns using PostgreSQL.  
+**Solution**: Window functions and session-based analysis.  
+  - [View Code](link_to_repo)  
 
-#### 7. **PostgreSQL Practice**  
+### 7. **PostgreSQL Query Practice**  
 **Tasks**:  
-  - Queries with string concatenation.  
-  - CASE statements.  
-  - Aggregate functions.  
-  - Subqueries.  
+  - Complex queries with CASE statements, subqueries, and string concatenation.  
+  - [View Code](link_to_repo)  
+
+---
+
+## 📬 Contact  
+- **Email**: [Your Email]  
+- **LinkedIn**: [Your LinkedIn Profile]  
+- **Portfolio**: [Personal Website/Blog]  
+
+
+# Долгор Цыдыпова | Портфолио аналитика данных  
+**GitHub:** [Dolgortsyd](https://github.com/Dolgortsyd)  
+
+---
+
+## 👋 Обо мне  
+Привет! Меня зовут **Долгор Цыдыпова**.  
+Я специалист с опытом в страховании, перехожу в сферу анализа данных. Владею инструментами анализа и визуализации, работаю с SQL и Python.  
+
+---
+
+## 🚀 Профессиональный опыт  
+### **Специалист по урегулированию убытков**  
+**ООО "СК Герса"** (июнь 2019 – март 2025)  
+- **Основные обязанности**:  
+  - Анализ убытков и подготовка отчетов в **Excel** (сводные таблицы, срезы, ВПР, СУММЕСЛИ, СЧЁТЕСЛИ).  
+  - Визуализация данных для стейкхолдеров.  
+  - Работа с первичной документацией (договоры, УПД, счета-фактуры).  
+
+---
+
+## 🛠️ Навыки  
+- **Языки**: SQL (PostgreSQL), Python  
+- **Библиотеки**: Pandas, NumPy, Matplotlib, Seaborn, Plotly, SciPy, Scikit-learn  
+- **Инструменты**: Power BI, Excel, MS Office  
+- **Методы**: Проверка гипотез, регрессионный анализ, поиск аномалий, ETL-процессы  
+
+---
+
+## 📚 Образование  
+- **Аналитик данных** | Нетология (онлайн-школа)  
+- **Самообучение**: углубленное изучение SQL, Python, Power BI  
+
+---
+
+## 💼 Проекты  
+
+### 1. **Анализ рынка недвижимости Москвы**  
+**Цель**: Прогнозирование стоимости квартир и выявление ключевых факторов.  
+**Что сделано**:  
+  - Сбор данных с Циан, очистка, анализ для стейкхолдеров.  
+  - Построение линейной регрессии и рекомендации по развитию бизнеса.  
+  - **Инструменты**: Python (Pandas, Scikit-learn, Matplotlib).  
+  - [Ссылка на проект](link_to_repo)  
+
+### 2. **Анализ базы авиаперевозок (PostgreSQL)**  
+**Цель**: Написание сложных SQL-запросов.  
+**Навыки**:  
+  - Оконные функции, CTE, подзапросы, CASE-выражения.  
+  - [Ссылка на проект](link_to_repo)  
+
+### 3. **Поиск аномалий в данных о сотрудниках**  
+**Цель**: Очистка датасета от выбросов и пропусков.  
+**Что сделано**:  
+  - Работа с дубликатами, аномалиями, визуализация (boxplot, гистограммы).  
+  - **Инструменты**: Python (Pandas, Regex).  
+  - [Ссылка на проект](link_to_repo)  
+
+### 4. **Анализ опроса удовлетворенности сотрудников**  
+**Цель**: Исследование факторов увольнения.  
+**Задачи**:  
+  - Статистика (среднее, медиана), проверка гипотезы о связи зарплаты и рабочего времени.  
+  - Построение LDA-модели для прогноза увольнений.  
+  - **Инструменты**: Python (Scikit-learn, SciPy).  
+  - [Ссылка на проект](link_to_repo)  
+
+### 5. **Анализ транзакций интернет-магазина (Великобритания)**  
+**Цель**: Подготовка аналитического отчета для роста бизнеса.  
+**Результат**:  
+  - Выявление аномалий, рекомендации по метрикам и развитию.  
+  - **Инструменты**: MS Excel, Word.  
+  - [Ссылка на проект](link_to_repo)  
+
+### 6. **Кейс: SQL-запрос для поиска паттернов**  
+**Задача**: Найти топ-5 шаблонов действий пользователей (≥2 повторов в сессии).  
+**Решение**: Оконные функции и анализ сессий.  
+  - [Ссылка на код](link_to_repo)  
+
+### 7. **Практика SQL (PostgreSQL)**  
+**Задачи**:  
+  - Запросы с конкатенацией, CASE-операторами, агрегатными функциями.  
+  - [Ссылка на код](link_to_repo)  
+
+---
+
+## 📬 Контакты  
+- **Почта**: [ваша_почта@example.com]  
+- **LinkedIn**: [ссылка на профиль]  
+- **Резюме**: [ссылка на PDF/сайт]  
+
+
+ 
    
    
 
