@@ -41,9 +41,8 @@ Hello! I'm **Dolgor Tsydypova**, a professional transitioning into data analytic
   - Data collection, cleaning, and stakeholder-focused analysis.  
   - Hypothesis testing, correlation matrix, and linear regression modeling.  
   - **Tools**: Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn).
-  - [View Project][(link_to_repo)](https://github.com/DolgorTs/resumeandprojects.github/blob/108954cd73f1be58ccb2e89d25c43c135383d233/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D1%80%D1%8B%D0%BD%D0%BA%D0%B0_%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D1%8B.ipynb)  
-  [Анализ_рынка_недвижимости_Москвы]([link_to_repo](https://github.com/DolgorTs/resumeandprojects.github/blob/108954cd73f1be58ccb2e89d25c43c135383d233/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D1%80%D1%8B%D0%BD%D0%BA%D0%B0_%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D1%8B.ipynb))
-    
+  - [(View Project)](https://github.com/DolgorTs/resumeandprojects.github/blob/108954cd73f1be58ccb2e89d25c43c135383d233/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D1%80%D1%8B%D0%BD%D0%BA%D0%B0_%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D1%8B.ipynb)  
+
 ### 2. **Air Travel Database Analysis (PostgreSQL)**  
 **Goal**: Analyze flight data with complex SQL queries.  
 **Skills Applied**:  
