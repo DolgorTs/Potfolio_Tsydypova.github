@@ -25,8 +25,7 @@
 - **Языки программирования**: SQL (PostgreSQL), Python  
 - **Анализ данных**: Pandas, NumPy, Scikit-learn, SciPy
 - **Визуализация**: Matplotlib, Seaborn, Plotly
-- **Инструменты**: Excel (продвинутый уровень), Jupyter Notebook, Git  
-- **Методы**: EDA, A/B-тестирование, регрессионный анализ, ETL  
+- **Инструменты**: Power point, Excel, Jupyter Notebook
 
 ---
 
