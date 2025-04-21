@@ -11,7 +11,7 @@ Currently, I am actively developing my skills in Data Analytics: proficient in S
 
 ## 🚀 Professional Experience  
 ### **Loss Settlement Specialist**  
-**LLC "SK Gersa"** (June 2019 – March 2023)  
+**LLC "SK Gersa"** (June 2019 – March 2025)  
 - **Key Achievements**:
   - Analyzed and managed policyholder claims (over 20 simultaneously), made claim decisions.
   - Communicated with policyholders.
@@ -95,7 +95,7 @@ Currently, I am actively developing my skills in Data Analytics: proficient in S
 
 ## 🚀 Профессиональный опыт  
 ### **Специалист по урегулированию убытков**  
-**ООО "СК Герса"** (июнь 2019 – март 2023)  
+**ООО "СК Герса"** (июнь 2019 – март 2025)  
 - **Ключевые достижения**:
   - Анализировала и вела убытки страхователей (свыше 20 одновременно), выносила решения по убыткам.
   - Коммуницировала со страхователями.
